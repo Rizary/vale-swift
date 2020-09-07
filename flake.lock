@@ -1,0 +1,91 @@
+{
+  "nodes": {
+    "devshell": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1598433396,
+        "narHash": "sha256-1gQtn0nQ/VY0TXdkkNRqB4t7csRN4oAouGTiCOZJPzI=",
+        "owner": "numtide",
+        "repo": "devshell",
+        "rev": "13ff779ca4e1d194a756add58b66d08065d98467",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "devshell",
+        "type": "github"
+      }
+    },
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1597053966,
+        "narHash": "sha256-f9lbPS/GJ1His8fsDqM6gfa8kSqREU4eKiMCS5hrKg4=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "ec20f52e2ff61e9c36c2b894b62fc1b4bd04c71b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "mozilla-overlay": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1594829078,
+        "narHash": "sha256-yRCkO499a5gucHmxgWb/QDqPt/UBTbuPURuPZ9DLmIc=",
+        "owner": "mozilla",
+        "repo": "nixpkgs-mozilla",
+        "rev": "efda5b357451dbb0431f983cca679ae3cd9b9829",
+        "type": "github"
+      },
+      "original": {
+        "owner": "mozilla",
+        "repo": "nixpkgs-mozilla",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1596041494,
+        "narHash": "sha256-ya3rCWKDbPWMVsh89/Z1mCJ9HFa5/DKdjcgcKkWB1xs=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "500d695aac9ea67195812f309890a911fbc96bda",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1597137910,
+        "narHash": "sha256-qskhrBbWGX9CNy7bC76TRydNs4gd7fXfIysnwDvpPYc=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "2c564010aa3c9aa84a77ae0dd009f2f563dd32d2",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "devshell": "devshell",
+        "flake-utils": "flake-utils",
+        "mozilla-overlay": "mozilla-overlay",
+        "nixpkgs": "nixpkgs_2"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

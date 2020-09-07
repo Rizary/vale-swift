@@ -1,0 +1,1218 @@
+Object({
+    "__type": String(
+        "Program",
+    ),
+    "exportedNameByFullName": Array([]),
+    "externs": Array([]),
+    "functions": Array([
+        Object({
+            "__type": String(
+                "Function",
+            ),
+            "block": Object({
+                "__type": String(
+                    "Block",
+                ),
+                "innerExpr": Object({
+                    "__type": String(
+                        "Return",
+                    ),
+                    "sourceExpr": Object({
+                        "__type": String(
+                            "Call",
+                        ),
+                        "argExprs": Array([
+                            Object({
+                                "__type": String(
+                                    "ConstantI64",
+                                ),
+                                "value": Number(
+                                    1,
+                                ),
+                            }),
+                            Object({
+                                "__type": String(
+                                    "ConstantI64",
+                                ),
+                                "value": Number(
+                                    2,
+                                ),
+                            }),
+                        ]),
+                        "function": Object({
+                            "__type": String(
+                                "Prototype",
+                            ),
+                            "name": String(
+                                "F(\"+\",[],[R(*,<,i),R(*,<,i)])",
+                            ),
+                            "params": Array([
+                                Object({
+                                    "__type": String(
+                                        "Ref",
+                                    ),
+                                    "location": Object({
+                                        "__type": String(
+                                            "Inline",
+                                        ),
+                                    }),
+                                    "ownership": Object({
+                                        "__type": String(
+                                            "Share",
+                                        ),
+                                    }),
+                                    "referend": Object({
+                                        "__type": String(
+                                            "Int",
+                                        ),
+                                    }),
+                                }),
+                                Object({
+                                    "__type": String(
+                                        "Ref",
+                                    ),
+                                    "location": Object({
+                                        "__type": String(
+                                            "Inline",
+                                        ),
+                                    }),
+                                    "ownership": Object({
+                                        "__type": String(
+                                            "Share",
+                                        ),
+                                    }),
+                                    "referend": Object({
+                                        "__type": String(
+                                            "Int",
+                                        ),
+                                    }),
+                                }),
+                            ]),
+                            "return": Object({
+                                "__type": String(
+                                    "Ref",
+                                ),
+                                "location": Object({
+                                    "__type": String(
+                                        "Inline",
+                                    ),
+                                }),
+                                "ownership": Object({
+                                    "__type": String(
+                                        "Share",
+                                    ),
+                                }),
+                                "referend": Object({
+                                    "__type": String(
+                                        "Int",
+                                    ),
+                                }),
+                            }),
+                        }),
+                    }),
+                    "sourceType": Object({
+                        "__type": String(
+                            "Ref",
+                        ),
+                        "location": Object({
+                            "__type": String(
+                                "Inline",
+                            ),
+                        }),
+                        "ownership": Object({
+                            "__type": String(
+                                "Share",
+                            ),
+                        }),
+                        "referend": Object({
+                            "__type": String(
+                                "Int",
+                            ),
+                        }),
+                    }),
+                }),
+                "innerType": Object({
+                    "__type": String(
+                        "Ref",
+                    ),
+                    "location": Object({
+                        "__type": String(
+                            "Inline",
+                        ),
+                    }),
+                    "ownership": Object({
+                        "__type": String(
+                            "Share",
+                        ),
+                    }),
+                    "referend": Object({
+                        "__type": String(
+                            "Never",
+                        ),
+                    }),
+                }),
+            }),
+            "export": Bool(
+                false,
+            ),
+            "prototype": Object({
+                "__type": String(
+                    "Prototype",
+                ),
+                "name": String(
+                    "F(\"main\")",
+                ),
+                "params": Array([]),
+                "return": Object({
+                    "__type": String(
+                        "Ref",
+                    ),
+                    "location": Object({
+                        "__type": String(
+                            "Inline",
+                        ),
+                    }),
+                    "ownership": Object({
+                        "__type": String(
+                            "Share",
+                        ),
+                    }),
+                    "referend": Object({
+                        "__type": String(
+                            "Int",
+                        ),
+                    }),
+                }),
+            }),
+        }),
+        Object({
+            "__type": String(
+                "Function",
+            ),
+            "block": Object({
+                "__type": String(
+                    "Block",
+                ),
+                "innerExpr": Object({
+                    "__type": String(
+                        "Consecutor",
+                    ),
+                    "exprs": Array([
+                        Object({
+                            "__type": String(
+                                "Stackify",
+                            ),
+                            "local": Object({
+                                "__type": String(
+                                    "Local",
+                                ),
+                                "id": Object({
+                                    "__type": String(
+                                        "VariableId",
+                                    ),
+                                    "number": Number(
+                                        0,
+                                    ),
+                                    "optName": Object({
+                                        "__type": String(
+                                            "Some",
+                                        ),
+                                        "value": String(
+                                            "F(\"+\",[],[R(*,<,i),R(*,<,i)]):CodeVarName(\"a\")",
+                                        ),
+                                    }),
+                                }),
+                                "type": Object({
+                                    "__type": String(
+                                        "Ref",
+                                    ),
+                                    "location": Object({
+                                        "__type": String(
+                                            "Inline",
+                                        ),
+                                    }),
+                                    "ownership": Object({
+                                        "__type": String(
+                                            "Share",
+                                        ),
+                                    }),
+                                    "referend": Object({
+                                        "__type": String(
+                                            "Int",
+                                        ),
+                                    }),
+                                }),
+                            }),
+                            "optName": Object({
+                                "__type": String(
+                                    "Some",
+                                ),
+                                "value": String(
+                                    "F(\"+\",[],[R(*,<,i),R(*,<,i)]):CodeVarName(\"a\")",
+                                ),
+                            }),
+                            "sourceExpr": Object({
+                                "__type": String(
+                                    "Argument",
+                                ),
+                                "argumentIndex": Number(
+                                    0,
+                                ),
+                                "resultType": Object({
+                                    "__type": String(
+                                        "Ref",
+                                    ),
+                                    "location": Object({
+                                        "__type": String(
+                                            "Inline",
+                                        ),
+                                    }),
+                                    "ownership": Object({
+                                        "__type": String(
+                                            "Share",
+                                        ),
+                                    }),
+                                    "referend": Object({
+                                        "__type": String(
+                                            "Int",
+                                        ),
+                                    }),
+                                }),
+                            }),
+                        }),
+                        Object({
+                            "__type": String(
+                                "Stackify",
+                            ),
+                            "local": Object({
+                                "__type": String(
+                                    "Local",
+                                ),
+                                "id": Object({
+                                    "__type": String(
+                                        "VariableId",
+                                    ),
+                                    "number": Number(
+                                        1,
+                                    ),
+                                    "optName": Object({
+                                        "__type": String(
+                                            "Some",
+                                        ),
+                                        "value": String(
+                                            "F(\"+\",[],[R(*,<,i),R(*,<,i)]):CodeVarName(\"b\")",
+                                        ),
+                                    }),
+                                }),
+                                "type": Object({
+                                    "__type": String(
+                                        "Ref",
+                                    ),
+                                    "location": Object({
+                                        "__type": String(
+                                            "Inline",
+                                        ),
+                                    }),
+                                    "ownership": Object({
+                                        "__type": String(
+                                            "Share",
+                                        ),
+                                    }),
+                                    "referend": Object({
+                                        "__type": String(
+                                            "Int",
+                                        ),
+                                    }),
+                                }),
+                            }),
+                            "optName": Object({
+                                "__type": String(
+                                    "Some",
+                                ),
+                                "value": String(
+                                    "F(\"+\",[],[R(*,<,i),R(*,<,i)]):CodeVarName(\"b\")",
+                                ),
+                            }),
+                            "sourceExpr": Object({
+                                "__type": String(
+                                    "Argument",
+                                ),
+                                "argumentIndex": Number(
+                                    1,
+                                ),
+                                "resultType": Object({
+                                    "__type": String(
+                                        "Ref",
+                                    ),
+                                    "location": Object({
+                                        "__type": String(
+                                            "Inline",
+                                        ),
+                                    }),
+                                    "ownership": Object({
+                                        "__type": String(
+                                            "Share",
+                                        ),
+                                    }),
+                                    "referend": Object({
+                                        "__type": String(
+                                            "Int",
+                                        ),
+                                    }),
+                                }),
+                            }),
+                        }),
+                        Object({
+                            "__type": String(
+                                "Stackify",
+                            ),
+                            "local": Object({
+                                "__type": String(
+                                    "Local",
+                                ),
+                                "id": Object({
+                                    "__type": String(
+                                        "VariableId",
+                                    ),
+                                    "number": Number(
+                                        2,
+                                    ),
+                                    "optName": Object({
+                                        "__type": String(
+                                            "Some",
+                                        ),
+                                        "value": String(
+                                            "F(\"+\",[],[R(*,<,i),R(*,<,i)]):TemplarBlockResultVarName",
+                                        ),
+                                    }),
+                                }),
+                                "type": Object({
+                                    "__type": String(
+                                        "Ref",
+                                    ),
+                                    "location": Object({
+                                        "__type": String(
+                                            "Inline",
+                                        ),
+                                    }),
+                                    "ownership": Object({
+                                        "__type": String(
+                                            "Share",
+                                        ),
+                                    }),
+                                    "referend": Object({
+                                        "__type": String(
+                                            "Int",
+                                        ),
+                                    }),
+                                }),
+                            }),
+                            "optName": Object({
+                                "__type": String(
+                                    "Some",
+                                ),
+                                "value": String(
+                                    "F(\"+\",[],[R(*,<,i),R(*,<,i)]):TemplarBlockResultVarName",
+                                ),
+                            }),
+                            "sourceExpr": Object({
+                                "__type": String(
+                                    "Call",
+                                ),
+                                "argExprs": Array([
+                                    Object({
+                                        "__type": String(
+                                            "LocalLoad",
+                                        ),
+                                        "local": Object({
+                                            "__type": String(
+                                                "Local",
+                                            ),
+                                            "id": Object({
+                                                "__type": String(
+                                                    "VariableId",
+                                                ),
+                                                "number": Number(
+                                                    0,
+                                                ),
+                                                "optName": Object({
+                                                    "__type": String(
+                                                        "Some",
+                                                    ),
+                                                    "value": String(
+                                                        "F(\"+\",[],[R(*,<,i),R(*,<,i)]):CodeVarName(\"a\")",
+                                                    ),
+                                                }),
+                                            }),
+                                            "type": Object({
+                                                "__type": String(
+                                                    "Ref",
+                                                ),
+                                                "location": Object({
+                                                    "__type": String(
+                                                        "Inline",
+                                                    ),
+                                                }),
+                                                "ownership": Object({
+                                                    "__type": String(
+                                                        "Share",
+                                                    ),
+                                                }),
+                                                "referend": Object({
+                                                    "__type": String(
+                                                        "Int",
+                                                    ),
+                                                }),
+                                            }),
+                                        }),
+                                        "localName": String(
+                                            "F(\"+\",[],[R(*,<,i),R(*,<,i)]):CodeVarName(\"a\")",
+                                        ),
+                                        "targetOwnership": Object({
+                                            "__type": String(
+                                                "Share",
+                                            ),
+                                        }),
+                                    }),
+                                    Object({
+                                        "__type": String(
+                                            "LocalLoad",
+                                        ),
+                                        "local": Object({
+                                            "__type": String(
+                                                "Local",
+                                            ),
+                                            "id": Object({
+                                                "__type": String(
+                                                    "VariableId",
+                                                ),
+                                                "number": Number(
+                                                    1,
+                                                ),
+                                                "optName": Object({
+                                                    "__type": String(
+                                                        "Some",
+                                                    ),
+                                                    "value": String(
+                                                        "F(\"+\",[],[R(*,<,i),R(*,<,i)]):CodeVarName(\"b\")",
+                                                    ),
+                                                }),
+                                            }),
+                                            "type": Object({
+                                                "__type": String(
+                                                    "Ref",
+                                                ),
+                                                "location": Object({
+                                                    "__type": String(
+                                                        "Inline",
+                                                    ),
+                                                }),
+                                                "ownership": Object({
+                                                    "__type": String(
+                                                        "Share",
+                                                    ),
+                                                }),
+                                                "referend": Object({
+                                                    "__type": String(
+                                                        "Int",
+                                                    ),
+                                                }),
+                                            }),
+                                        }),
+                                        "localName": String(
+                                            "F(\"+\",[],[R(*,<,i),R(*,<,i)]):CodeVarName(\"b\")",
+                                        ),
+                                        "targetOwnership": Object({
+                                            "__type": String(
+                                                "Share",
+                                            ),
+                                        }),
+                                    }),
+                                ]),
+                                "function": Object({
+                                    "__type": String(
+                                        "Prototype",
+                                    ),
+                                    "name": String(
+                                        "F(\"__addIntInt\",[],[R(*,<,i),R(*,<,i)])",
+                                    ),
+                                    "params": Array([
+                                        Object({
+                                            "__type": String(
+                                                "Ref",
+                                            ),
+                                            "location": Object({
+                                                "__type": String(
+                                                    "Inline",
+                                                ),
+                                            }),
+                                            "ownership": Object({
+                                                "__type": String(
+                                                    "Share",
+                                                ),
+                                            }),
+                                            "referend": Object({
+                                                "__type": String(
+                                                    "Int",
+                                                ),
+                                            }),
+                                        }),
+                                        Object({
+                                            "__type": String(
+                                                "Ref",
+                                            ),
+                                            "location": Object({
+                                                "__type": String(
+                                                    "Inline",
+                                                ),
+                                            }),
+                                            "ownership": Object({
+                                                "__type": String(
+                                                    "Share",
+                                                ),
+                                            }),
+                                            "referend": Object({
+                                                "__type": String(
+                                                    "Int",
+                                                ),
+                                            }),
+                                        }),
+                                    ]),
+                                    "return": Object({
+                                        "__type": String(
+                                            "Ref",
+                                        ),
+                                        "location": Object({
+                                            "__type": String(
+                                                "Inline",
+                                            ),
+                                        }),
+                                        "ownership": Object({
+                                            "__type": String(
+                                                "Share",
+                                            ),
+                                        }),
+                                        "referend": Object({
+                                            "__type": String(
+                                                "Int",
+                                            ),
+                                        }),
+                                    }),
+                                }),
+                            }),
+                        }),
+                        Object({
+                            "__type": String(
+                                "Discard",
+                            ),
+                            "sourceExpr": Object({
+                                "__type": String(
+                                    "Unstackify",
+                                ),
+                                "local": Object({
+                                    "__type": String(
+                                        "Local",
+                                    ),
+                                    "id": Object({
+                                        "__type": String(
+                                            "VariableId",
+                                        ),
+                                        "number": Number(
+                                            1,
+                                        ),
+                                        "optName": Object({
+                                            "__type": String(
+                                                "Some",
+                                            ),
+                                            "value": String(
+                                                "F(\"+\",[],[R(*,<,i),R(*,<,i)]):CodeVarName(\"b\")",
+                                            ),
+                                        }),
+                                    }),
+                                    "type": Object({
+                                        "__type": String(
+                                            "Ref",
+                                        ),
+                                        "location": Object({
+                                            "__type": String(
+                                                "Inline",
+                                            ),
+                                        }),
+                                        "ownership": Object({
+                                            "__type": String(
+                                                "Share",
+                                            ),
+                                        }),
+                                        "referend": Object({
+                                            "__type": String(
+                                                "Int",
+                                            ),
+                                        }),
+                                    }),
+                                }),
+                            }),
+                            "sourceResultType": Object({
+                                "__type": String(
+                                    "Ref",
+                                ),
+                                "location": Object({
+                                    "__type": String(
+                                        "Inline",
+                                    ),
+                                }),
+                                "ownership": Object({
+                                    "__type": String(
+                                        "Share",
+                                    ),
+                                }),
+                                "referend": Object({
+                                    "__type": String(
+                                        "Int",
+                                    ),
+                                }),
+                            }),
+                        }),
+                        Object({
+                            "__type": String(
+                                "Discard",
+                            ),
+                            "sourceExpr": Object({
+                                "__type": String(
+                                    "Unstackify",
+                                ),
+                                "local": Object({
+                                    "__type": String(
+                                        "Local",
+                                    ),
+                                    "id": Object({
+                                        "__type": String(
+                                            "VariableId",
+                                        ),
+                                        "number": Number(
+                                            0,
+                                        ),
+                                        "optName": Object({
+                                            "__type": String(
+                                                "Some",
+                                            ),
+                                            "value": String(
+                                                "F(\"+\",[],[R(*,<,i),R(*,<,i)]):CodeVarName(\"a\")",
+                                            ),
+                                        }),
+                                    }),
+                                    "type": Object({
+                                        "__type": String(
+                                            "Ref",
+                                        ),
+                                        "location": Object({
+                                            "__type": String(
+                                                "Inline",
+                                            ),
+                                        }),
+                                        "ownership": Object({
+                                            "__type": String(
+                                                "Share",
+                                            ),
+                                        }),
+                                        "referend": Object({
+                                            "__type": String(
+                                                "Int",
+                                            ),
+                                        }),
+                                    }),
+                                }),
+                            }),
+                            "sourceResultType": Object({
+                                "__type": String(
+                                    "Ref",
+                                ),
+                                "location": Object({
+                                    "__type": String(
+                                        "Inline",
+                                    ),
+                                }),
+                                "ownership": Object({
+                                    "__type": String(
+                                        "Share",
+                                    ),
+                                }),
+                                "referend": Object({
+                                    "__type": String(
+                                        "Int",
+                                    ),
+                                }),
+                            }),
+                        }),
+                        Object({
+                            "__type": String(
+                                "Return",
+                            ),
+                            "sourceExpr": Object({
+                                "__type": String(
+                                    "Unstackify",
+                                ),
+                                "local": Object({
+                                    "__type": String(
+                                        "Local",
+                                    ),
+                                    "id": Object({
+                                        "__type": String(
+                                            "VariableId",
+                                        ),
+                                        "number": Number(
+                                            2,
+                                        ),
+                                        "optName": Object({
+                                            "__type": String(
+                                                "Some",
+                                            ),
+                                            "value": String(
+                                                "F(\"+\",[],[R(*,<,i),R(*,<,i)]):TemplarBlockResultVarName",
+                                            ),
+                                        }),
+                                    }),
+                                    "type": Object({
+                                        "__type": String(
+                                            "Ref",
+                                        ),
+                                        "location": Object({
+                                            "__type": String(
+                                                "Inline",
+                                            ),
+                                        }),
+                                        "ownership": Object({
+                                            "__type": String(
+                                                "Share",
+                                            ),
+                                        }),
+                                        "referend": Object({
+                                            "__type": String(
+                                                "Int",
+                                            ),
+                                        }),
+                                    }),
+                                }),
+                            }),
+                            "sourceType": Object({
+                                "__type": String(
+                                    "Ref",
+                                ),
+                                "location": Object({
+                                    "__type": String(
+                                        "Inline",
+                                    ),
+                                }),
+                                "ownership": Object({
+                                    "__type": String(
+                                        "Share",
+                                    ),
+                                }),
+                                "referend": Object({
+                                    "__type": String(
+                                        "Int",
+                                    ),
+                                }),
+                            }),
+                        }),
+                    ]),
+                }),
+                "innerType": Object({
+                    "__type": String(
+                        "Ref",
+                    ),
+                    "location": Object({
+                        "__type": String(
+                            "Inline",
+                        ),
+                    }),
+                    "ownership": Object({
+                        "__type": String(
+                            "Share",
+                        ),
+                    }),
+                    "referend": Object({
+                        "__type": String(
+                            "Never",
+                        ),
+                    }),
+                }),
+            }),
+            "export": Bool(
+                false,
+            ),
+            "prototype": Object({
+                "__type": String(
+                    "Prototype",
+                ),
+                "name": String(
+                    "F(\"+\",[],[R(*,<,i),R(*,<,i)])",
+                ),
+                "params": Array([
+                    Object({
+                        "__type": String(
+                            "Ref",
+                        ),
+                        "location": Object({
+                            "__type": String(
+                                "Inline",
+                            ),
+                        }),
+                        "ownership": Object({
+                            "__type": String(
+                                "Share",
+                            ),
+                        }),
+                        "referend": Object({
+                            "__type": String(
+                                "Int",
+                            ),
+                        }),
+                    }),
+                    Object({
+                        "__type": String(
+                            "Ref",
+                        ),
+                        "location": Object({
+                            "__type": String(
+                                "Inline",
+                            ),
+                        }),
+                        "ownership": Object({
+                            "__type": String(
+                                "Share",
+                            ),
+                        }),
+                        "referend": Object({
+                            "__type": String(
+                                "Int",
+                            ),
+                        }),
+                    }),
+                ]),
+                "return": Object({
+                    "__type": String(
+                        "Ref",
+                    ),
+                    "location": Object({
+                        "__type": String(
+                            "Inline",
+                        ),
+                    }),
+                    "ownership": Object({
+                        "__type": String(
+                            "Share",
+                        ),
+                    }),
+                    "referend": Object({
+                        "__type": String(
+                            "Int",
+                        ),
+                    }),
+                }),
+            }),
+        }),
+        Object({
+            "__type": String(
+                "Function",
+            ),
+            "block": Object({
+                "__type": String(
+                    "Return",
+                ),
+                "sourceExpr": Object({
+                    "__type": String(
+                        "ExternCall",
+                    ),
+                    "argExprs": Array([
+                        Object({
+                            "__type": String(
+                                "Argument",
+                            ),
+                            "argumentIndex": Number(
+                                0,
+                            ),
+                            "resultType": Object({
+                                "__type": String(
+                                    "Ref",
+                                ),
+                                "location": Object({
+                                    "__type": String(
+                                        "Inline",
+                                    ),
+                                }),
+                                "ownership": Object({
+                                    "__type": String(
+                                        "Share",
+                                    ),
+                                }),
+                                "referend": Object({
+                                    "__type": String(
+                                        "Int",
+                                    ),
+                                }),
+                            }),
+                        }),
+                        Object({
+                            "__type": String(
+                                "Argument",
+                            ),
+                            "argumentIndex": Number(
+                                1,
+                            ),
+                            "resultType": Object({
+                                "__type": String(
+                                    "Ref",
+                                ),
+                                "location": Object({
+                                    "__type": String(
+                                        "Inline",
+                                    ),
+                                }),
+                                "ownership": Object({
+                                    "__type": String(
+                                        "Share",
+                                    ),
+                                }),
+                                "referend": Object({
+                                    "__type": String(
+                                        "Int",
+                                    ),
+                                }),
+                            }),
+                        }),
+                    ]),
+                    "argTypes": Array([
+                        Object({
+                            "__type": String(
+                                "Ref",
+                            ),
+                            "location": Object({
+                                "__type": String(
+                                    "Inline",
+                                ),
+                            }),
+                            "ownership": Object({
+                                "__type": String(
+                                    "Share",
+                                ),
+                            }),
+                            "referend": Object({
+                                "__type": String(
+                                    "Int",
+                                ),
+                            }),
+                        }),
+                        Object({
+                            "__type": String(
+                                "Ref",
+                            ),
+                            "location": Object({
+                                "__type": String(
+                                    "Inline",
+                                ),
+                            }),
+                            "ownership": Object({
+                                "__type": String(
+                                    "Share",
+                                ),
+                            }),
+                            "referend": Object({
+                                "__type": String(
+                                    "Int",
+                                ),
+                            }),
+                        }),
+                    ]),
+                    "function": Object({
+                        "__type": String(
+                            "Prototype",
+                        ),
+                        "name": String(
+                            "F(\"__addIntInt\",[],[R(*,<,i),R(*,<,i)])",
+                        ),
+                        "params": Array([
+                            Object({
+                                "__type": String(
+                                    "Ref",
+                                ),
+                                "location": Object({
+                                    "__type": String(
+                                        "Inline",
+                                    ),
+                                }),
+                                "ownership": Object({
+                                    "__type": String(
+                                        "Share",
+                                    ),
+                                }),
+                                "referend": Object({
+                                    "__type": String(
+                                        "Int",
+                                    ),
+                                }),
+                            }),
+                            Object({
+                                "__type": String(
+                                    "Ref",
+                                ),
+                                "location": Object({
+                                    "__type": String(
+                                        "Inline",
+                                    ),
+                                }),
+                                "ownership": Object({
+                                    "__type": String(
+                                        "Share",
+                                    ),
+                                }),
+                                "referend": Object({
+                                    "__type": String(
+                                        "Int",
+                                    ),
+                                }),
+                            }),
+                        ]),
+                        "return": Object({
+                            "__type": String(
+                                "Ref",
+                            ),
+                            "location": Object({
+                                "__type": String(
+                                    "Inline",
+                                ),
+                            }),
+                            "ownership": Object({
+                                "__type": String(
+                                    "Share",
+                                ),
+                            }),
+                            "referend": Object({
+                                "__type": String(
+                                    "Int",
+                                ),
+                            }),
+                        }),
+                    }),
+                }),
+                "sourceType": Object({
+                    "__type": String(
+                        "Ref",
+                    ),
+                    "location": Object({
+                        "__type": String(
+                            "Inline",
+                        ),
+                    }),
+                    "ownership": Object({
+                        "__type": String(
+                            "Share",
+                        ),
+                    }),
+                    "referend": Object({
+                        "__type": String(
+                            "Int",
+                        ),
+                    }),
+                }),
+            }),
+            "export": Bool(
+                false,
+            ),
+            "prototype": Object({
+                "__type": String(
+                    "Prototype",
+                ),
+                "name": String(
+                    "F(\"__addIntInt\",[],[R(*,<,i),R(*,<,i)])",
+                ),
+                "params": Array([
+                    Object({
+                        "__type": String(
+                            "Ref",
+                        ),
+                        "location": Object({
+                            "__type": String(
+                                "Inline",
+                            ),
+                        }),
+                        "ownership": Object({
+                            "__type": String(
+                                "Share",
+                            ),
+                        }),
+                        "referend": Object({
+                            "__type": String(
+                                "Int",
+                            ),
+                        }),
+                    }),
+                    Object({
+                        "__type": String(
+                            "Ref",
+                        ),
+                        "location": Object({
+                            "__type": String(
+                                "Inline",
+                            ),
+                        }),
+                        "ownership": Object({
+                            "__type": String(
+                                "Share",
+                            ),
+                        }),
+                        "referend": Object({
+                            "__type": String(
+                                "Int",
+                            ),
+                        }),
+                    }),
+                ]),
+                "return": Object({
+                    "__type": String(
+                        "Ref",
+                    ),
+                    "location": Object({
+                        "__type": String(
+                            "Inline",
+                        ),
+                    }),
+                    "ownership": Object({
+                        "__type": String(
+                            "Share",
+                        ),
+                    }),
+                    "referend": Object({
+                        "__type": String(
+                            "Int",
+                        ),
+                    }),
+                }),
+            }),
+        }),
+    ]),
+    "immDestructorsByReferend": Array([]),
+    "interfaces": Array([]),
+    "structs": Array([
+        Object({
+            "__type": String(
+                "Struct",
+            ),
+            "edges": Array([]),
+            "export": Bool(
+                false,
+            ),
+            "members": Array([]),
+            "mutability": Object({
+                "__type": String(
+                    "Immutable",
+                ),
+            }),
+            "name": String(
+                "Tup",
+            ),
+            "weakable": Bool(
+                false,
+            ),
+        }),
+    ]),
+})

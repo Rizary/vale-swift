@@ -1,0 +1,13 @@
+name = "vales"
+
+packages = [
+    # "cargo",
+    # "cargo-edit",
+    # "cargo.passthru.rustc",
+    # "rustc",
+	# "rustfmt",
+	# "rustPlatform.rustcSrc",
+	# "clippy",
+	"vales.pkgs.rust",
+    "rust-analyzer",
+]

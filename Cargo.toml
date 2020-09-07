@@ -1,0 +1,16 @@
+[package]
+name = "vale-swift"
+version = "0.0.0"
+authors = ["Vale team"]
+edition = "2018"
+license = "MIT"
+description = "Transpile Vale to Swift"
+
+[dependencies]
+reqwest = { version = "0.10", features = ["blocking", "json"] }
+serde = {version = "1.0.10", features = ["derive"]}
+serde_json = {version = "1.0.57", features = ["default"]}
+
+[[bin]]
+name = "vales"
+path = "src/main.rs"
