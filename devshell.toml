@@ -1,13 +1,13 @@
 name = "vales"
 
 packages = [
-    # "cargo",
-    # "cargo-edit",
-    # "cargo.passthru.rustc",
-    # "rustc",
-	# "rustfmt",
-	# "rustPlatform.rustcSrc",
-	# "clippy",
+    #"cargo",
+    #"cargo-edit",
+    #"cargo.passthru.rustc",
+    #"rustc",
+	#"rustfmt",
+	#"rustPlatform.rustcSrc",
+	#"clippy",cat
 	"vales.pkgs.rust",
     "rust-analyzer",
 ]
